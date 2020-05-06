@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/backblue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="60dp"
+        android:layout_marginHorizontal="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercumono"
+            android:text="Kindly rate the service"
+            android:textAlignment="center"
+            android:textColor="#2727A4"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+
+        <RatingBar
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:numStars="5"
+            android:progressTint="#F0CD5F"
+            android:rating="3"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercumono"
+            android:text="Help us improve: "
+            android:textColor="#2727A4"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Kindly leave a review for your service"
+            android:layout_height="200dp"
+            android:fontFamily="@font/apercumono"
+            android:textColor="#2727A4"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edges"
+            android:backgroundTint="#2727A4"
+            android:text="SUBMIT"
+            android:textColor="#F8F8FA"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/apercumono" />
+    </LinearLayout>
+
+</LinearLayout>

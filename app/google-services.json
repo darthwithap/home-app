@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647797083917",
+    "firebase_url": "https://maddyapp-25bf6.firebaseio.com",
+    "project_id": "maddyapp-25bf6",
+    "storage_bucket": "maddyapp-25bf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647797083917:android:c660e749548142a7ef6a44",
+        "android_client_info": {
+          "package_name": "com.darthwithap.homeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647797083917-o16tqdvs56ho777tqtgind0n1ctks0n7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darthwithap.homeapp",
+            "certificate_hash": "0c4ddb16e99bb866cde6bb783d2a7fd231234879"
+          }
+        },
+        {
+          "client_id": "647797083917-pc7ba2jq1jh8jgqlp4ph9u42els8jpqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZzPV3dZNawOItEQcjp-h2_Jd2F9XJ8rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647797083917-pc7ba2jq1jh8jgqlp4ph9u42els8jpqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

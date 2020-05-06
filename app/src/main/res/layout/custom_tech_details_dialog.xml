@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="250dp"
+    android:layout_width="330dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="330dp"
+        android:layout_height="250dp"
+        android:background="@drawable/customborder_dialog"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="3dp">
+
+                <ImageView
+                    android:id="@+id/img_profile_techdetails_dialog"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+
+                    android:src="@drawable/username"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:id="@+id/txt_name_techdetails_dialog"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/apercumono"
+                        android:textColor="#2727A4"
+                        android:textSize="23dp"
+                        android:text="Anushka" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_margin="5dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp">
+                            <TextView
+                                android:id="@+id/txt_rating_techdetails_dialog"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/apercumono"
+                                android:textColor="#2727A4"
+                                android:textSize="18sp"
+                                android:text="4.0"/>
+
+                            <ImageView
+                                android:id="@+id/st1"
+                                android:layout_width="13dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:tint="#F3BC17"
+                                android:src="@drawable/star"
+                                />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/txt_job_techdetails_dialog"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/apercumono"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#010109"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Plumber"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="7dp"
+            android:text="Description"
+            android:textSize="20sp"
+            android:textColor="#2727A4"
+            android:fontFamily="@font/apercumono"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_desc_techdetails_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:textColor="#2727A4"
+            android:fontFamily="@font/apercumono"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/btn_book_now_techdetails_dialog"
+            android:background="@drawable/btn_bg_col"
+            android:text="Book Now"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/apercumono"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="82dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backblue" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="322dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/apercumono"
+        android:text="Register Now"
+        android:textAlignment="center"
+        android:textColor="#2727A4"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/btn_su_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#00BE3333"
+                android:tint="#6161B8"
+                app:srcCompat="@drawable/name" />
+
+            <EditText
+                android:id="@+id/et_name_signup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:fontFamily="@font/apercumono"
+                android:inputType="textPersonName"
+                android:hint="Full Name"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="211dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#00BE3333"
+                android:tint="#6161B8"
+                app:srcCompat="@drawable/username"
+                tools:layout_editor_absoluteY="348dp" />
+
+            <EditText
+                android:id="@+id/et_username_signup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:fontFamily="@font/apercumono"
+                android:inputType="textPersonName"
+                android:hint="Username"
+                tools:layout_editor_absoluteY="344dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#00BE3333"
+                android:tint="#6161B8"
+                app:srcCompat="@drawable/call"
+                tools:layout_editor_absoluteY="299dp" />
+
+            <EditText
+                android:id="@+id/et_phone_signup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:fontFamily="@font/apercumono"
+                android:inputType="textPersonName"
+                android:hint="Contact Number"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="299dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#00BE3333"
+                android:tint="#6161B8"
+                app:srcCompat="@drawable/mail" />
+
+            <EditText
+                android:id="@+id/et_email_signup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:fontFamily="@font/apercumono"
+                android:inputType="textPersonName"
+                android:hint="Email "
+               />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:tint="#6161B8"
+                app:srcCompat="@drawable/password"
+                tools:layout_editor_absoluteY="398dp" />
+
+            <EditText
+                android:id="@+id/et_password_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:fontFamily="@font/apercumono"
+                android:inputType="textPassword"
+                android:hint="Password"
+                tools:layout_editor_absoluteY="398dp" />
+
+            <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/password_toggle_icon"
+            android:layout_height="40dp"
+            android:src="@drawable/password_hide"
+            android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+       <RadioGroup
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/rgrp">
+
+           <RadioButton
+               android:id="@+id/rbtn_tech"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="5dp"
+               android:fontFamily="@font/apercumono"
+               android:text="Technician"
+               android:textSize="16sp"
+               tools:layout_editor_absoluteX="126dp"
+               tools:layout_editor_absoluteY="467dp" />
+
+           <RadioButton
+               android:id="@+id/rbtn_cust"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:fontFamily="@font/apercumono"
+               android:text="Customer"
+               android:textSize="16sp"
+               tools:layout_editor_absoluteX="126dp"
+               tools:layout_editor_absoluteY="512dp" />
+
+       </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_su_signup"
+        android:layout_width="221dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rounded_edges"
+        android:backgroundTint="#2727A4"
+        android:fontFamily="@font/apercumono"
+        android:text="Sign Up"
+        android:textColor="#F8F8FA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

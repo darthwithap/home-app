@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_tech"
+    app:startDestination="@+id/nav_home_tech_frag">
+
+    <fragment
+        android:id="@+id/nav_home_tech_frag"
+        android:name="com.darthwithap.homeapp.HomeFragmentTech"
+        android:label="HomeTech"
+        tools:layout="@layout/fragment_home_tech" />
+
+
+    <fragment
+        android:id="@+id/nav_settings_tech_frag"
+        android:name="com.darthwithap.homeapp.SettingsFragmentTech"
+        android:label="SettingsTech"
+        tools:layout="@layout/fragment_settings_tech" />
+
+    <fragment
+        android:id="@+id/nav_services_tech_frag"
+        android:name="com.darthwithap.homeapp.ServicesFragmentTech"
+        android:label="ServicesTech"
+        tools:layout="@layout/fragment_services_tech">
+
+        <action
+            android:id="@+id/selected_dest"
+            app:destination="@+id/sub_category_frag"
+            />
+        <action
+            android:id="@+id/search_dest"
+            app:destination="@+id/nav_home_tech_frag"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/sub_category_frag"
+        android:name="com.darthwithap.homeapp.SubCategoryFragment"
+        android:label="SubCategory"
+        tools:layout="@layout/fragment_sub_category_tech">
+
+        <action
+            android:id="@+id/book_later_dest"
+            app:destination="@+id/book_later_frag"
+            />
+        <action
+            android:id="@+id/book_now_dest"
+            app:destination="@+id/nav_home_tech_frag"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_reviews_tech_frag"
+        android:name="com.darthwithap.homeapp.ReviewsFragmentTech"
+        android:label="ReviewsTech"
+        tools:layout="@layout/fragment_reviews_tech" />
+
+    <fragment
+        android:id="@+id/nav_bookings_tech_frag"
+        android:name="com.darthwithap.homeapp.BookingsFragmentTech"
+        android:label="BookingsTech"
+        tools:layout="@layout/fragment_bookings_tech" />
+
+    <fragment
+        android:id="@+id/book_later_frag"
+        android:name="com.darthwithap.homeapp.BookLaterFragmentTech"
+        android:label="BookLater"
+        tools:layout="@layout/fragment_book_later" />
+</navigation>

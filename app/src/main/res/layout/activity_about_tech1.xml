@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutTech">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+
+    <LinearLayout
+        android:layout_width="334dp"
+        android:layout_height="661dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/apercumono"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercumono"
+            android:text="Uninformed guests and untimely appliance break down are the moments when one might desire a quick service the most.
+This is where our application kicks in."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/apercumono"
+            android:text="It is a platform where one can request for any desired service on an urgent basis.
+Our application connects consumers to nearby technicians or other service provider available at the moment.
+Electrician, plumber, carpenter, cook, beautician and other repair services are namely a few services that the application provides to its users."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/apercumono"
+            android:text="Developed by:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercumono"
+            android:paddingRight="150dp"
+            android:text="Anushka Gupta   Madhav Shroff   Parth Takkar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/apercumono"
+            android:text="Undergraduate Students, CHRIST (Deemed to be University)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2727A4"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

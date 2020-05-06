@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_tech"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bookings_tech"
+            android:icon="@drawable/notepad"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/nav_services_tech"
+            android:icon="@drawable/travel"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_reviews_tech"
+            android:icon="@drawable/star"
+            android:title="Reviews"
+            android:tint="@color/colorAccent" />
+        <item
+            android:id="@+id/nav_settings_tech"
+            android:icon="@drawable/build"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
